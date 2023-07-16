@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="c.css">
+    <title>Form Design</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Food Care</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Join Us</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="donor.html">Donor</a></li>
+                      <li><a class="dropdown-item" href="c.html">Community</a></li>
+                    </ul>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+    <div style="padding-top: 3%;">
+   <div class="container-fluid bg-dark text-light py-3">
+       <header class="text-center">
+           <h2 class="display-6">COMMUNITY MEMBER FORM</h2>
+       </header>
+   </div>
+   <section class="container my-2 bg-dark w-50 text-light p-2">
+    <form class="row g-3 p-3">
+        <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationDefault01" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationDefault02" value="" required>
+          </div>
+                  <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Contact no.</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Zone</label>
+          <select id="inputState" class="form-select">
+            <option selected>1</option>
+            <option selected>2</option>
+            <option selected>3</option>
+            <option selected>4</option>
+            
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <class class="col-12">
+          <button type="submit" class="btn btn-primary">SUBMIT</button>
+          
+        </class>
+        </div>
+      </form>
+   </section>
+</div>
+  </body>
+</html>
